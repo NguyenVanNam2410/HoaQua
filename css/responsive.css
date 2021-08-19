@@ -1,0 +1,340 @@
+/*mobile & tablet*/
+@media ( max-width: 1024px){
+    :root{
+        --navbar-height:0px;
+        --header-height:68px;
+    }
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .service__heading-item::after{
+        right: 39%;
+    }
+    .service__heading-item::before{
+        left: 39%;
+    }
+    .service__heading--img::before{
+        bottom: 40%;
+        left: 76px;
+    }
+    .sercive__icon{
+        bottom: 35%;
+    }
+    .dental__videos--item-link {
+        height: 433px;
+    }
+    .footer__img img{
+        width: 100%;
+    }
+    .service__heading-item{
+        font-size: 3rem;
+    }
+    h2.footer__hospital {
+        font-size: 1.8rem;
+    }
+    span.footer__span {
+        font-size: 1.5rem;
+    }
+    li.footer__hospital--link {
+        font-size: 1.2rem;
+    }
+    .customers__check--icon-mobile{
+        display: none;
+    }
+    
+}
+/*tablet*/
+@media (min-width:740px) and ( max-width: 1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+    .header__banner__title {
+        margin-top: 22px;
+    }
+    .header__banner__title h3 {
+        font-size: 1.8rem;
+    }
+    .header__banner__title p {
+        font-size: 1.6rem;
+        margin: 6px 0;
+    }
+    .header__banner--hotline {
+        margin: 22px 0;
+    }
+    .header__banner--icon-phone i {
+        font-size: 2.6rem;
+        color: #a50000;
+    }
+    .header__banner--hotline--phone p {
+        font-size: 1.6rem;
+
+    }
+    .header__banner__search--product--input input {
+        height: 28px;
+    }
+    .header__banner__search--dropdown--item {
+        font-size: 1.1rem;
+        padding: 0;
+    }
+    .header__banner__search--dropdown--item span {
+        line-height: 31px;
+    }
+    .arrow-down {
+        border-left: 3px solid transparent;
+        border-right: 3px solid transparent;
+        border-top: 3px solid var(--black-color);
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+    .header__banner__search--dropdown--icon i {
+        font-size: 1.4rem;
+    }
+    .header__banner__search--dropdown--icon {
+        right: 9px;
+    }
+    .header__banner__logo--VN img {
+        width: 24px;
+        height: 18px;
+    }
+    .header__nav__navbar-item-link {
+        padding: 10px 8px;
+    }
+    .header__nav__navbar-item-link-lable {
+        font-size: 1.2rem;
+    }
+    .herder__nav__calendar-icon {
+        font-size: 1.3rem;
+        padding: 7px 16px;
+    }
+    .service__heading-item {
+        font-size: 2.3rem;
+        padding-bottom: 8px;
+    }
+    .service__heading-item::before {
+        left: 37%;
+        width: 74px;
+    }
+    .service__heading-item::after {
+        right: 37%;
+        width: 74px;
+    }
+    .service__heading--img::before {
+        bottom: 33%;
+        left: 50px;
+        width: 35px;
+        height: 35px;
+    }
+    .sercive__icon {
+        bottom: 27%;
+        font-size: 1.6rem;
+    }
+    .service__heading--span {
+        font-size: 1rem;
+        padding: 17px 15px 6px 15px;
+        line-height: 1.2rem;
+    }
+    .service__heading--span--item::after {
+        width: 40px;
+        bottom: -1px;
+        left: 39%;
+    }
+    .right,.left{
+        font-size: 3rem;
+    }
+    .right__service, .left__service {
+        top: 38%;
+        font-size: 2rem;
+    }
+    .dear__customers--img img {
+        height: 225px;
+    }
+    .dental__videos--item-link {
+        height: 284px;
+    }
+    .dental_label {
+        padding-bottom: 0px;
+        padding-top: 11px;
+    }
+    .dear__customers--label {
+        font-size: 1.3rem;
+        padding-top: 10px;
+    }
+    .dental__videos--icon {
+        line-height: 7;
+        font-size: 2rem;
+    }
+    .active_video{
+        line-height: 9;
+        font-size: 3rem;
+    }
+    .customers__img--image img {
+        height: 195px;
+    }
+    .customers__img--label {
+        padding: 8px 0;
+        font-size: 1.5rem;
+    }
+    .customers__check {
+        margin-top: 6px;
+        margin-bottom: 20px;
+    }
+    .new__img--image img {
+        width: 180px;
+        height: 100px;
+    }
+    .new__item--link {
+        font-size: 1.4rem;
+        padding-bottom: 8px;
+    }
+    .new__item--day {
+        font-size: 1.3rem;
+    }
+    .new__item--label {
+        font-size: 0.9rem;
+    }
+    h2.footer__hospital {
+        font-size: 1.5rem;
+        padding: 15px 0;
+    }
+    span.footer__span {
+        font-size: 1.3rem;
+        padding: 5px;
+    }
+    li.footer__hospital--link {
+        font-size: 1.1rem;
+    }
+    .dental__services--people-item {
+        font-size: 1.3rem;
+        padding-bottom: 10px;
+        transform: translateY(-30px);
+    }
+    .dental__services--people-link {
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+        padding: 0 40px;
+        transform: translateY(20px);
+    }
+    .dental__services--people {
+        position: absolute;
+        top: 24%;
+    }
+    .customers__check--icon-mobile{
+        display: none;
+    }
+    .header__banner__logo img{
+        width: 100%;
+    }
+}
+/*mobile*/
+@media ( max-width: 739px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .right, .left {
+        padding: 18px;
+        font-size: 2rem;
+    }
+    .slider_text {
+        top: 35%;
+    }
+    .slider_text h2 {
+        font-size: 1.5rem;
+    }
+    .slider_text p {
+        font-size: 1.2rem;
+    }
+    .dot{
+        width: 12px;
+        height: 12px;
+    }
+    .caption__hospital--heading{
+        font-size: 1.6rem;
+        padding: 15px 15px;
+    }
+    .caption__hospital--icon{
+        font-size: 1.8rem;
+    }
+    span.caption__hospital--heading--link {
+        padding: 8px 9px;
+        display: block;
+    }
+    .service__heading-item{
+        font-size: 1.8rem;
+        padding-bottom: 5px;
+    }
+    .service__heading-item::before {
+        left: 33%;
+        width: 60px;
+    }
+    .service__heading-item::after{
+        right: 33%;
+        width: 60px;
+    }
+    .service__heading--img::before{
+        bottom: 36%;
+        left: 67px;
+        width: 35px;
+        height: 35px;
+    }
+    .sercive__icon{
+        bottom: 30%;
+        font-size: 2rem;
+    }
+    .service__heading--span{
+        font-size: 1.1rem;
+        padding: 16px 15px 18px 15px;
+        line-height: 1.6rem;
+    }
+    .service__heading--span--item::after{
+        width: 38px;
+    }
+    .right__service,.left__service{
+        top: 37%;
+    }
+    .dear__customers--img img{
+        height: 190px;
+    }
+    .customers__check--icon-mobile{
+        display: block;
+    }
+    .new__img--image img{
+        width: 165px;
+        height: 117px;
+    }
+    .new__item--link{
+        font-size: 1.5rem;
+        padding-bottom: 12px;
+    }
+    .new__item--label{
+        font-size: 1.1rem;
+    }
+    h2.footer__hospital {
+        font-size: 1.8rem;
+        padding: 14px 3px;
+    }
+    ul.footer__hospital--item {
+        padding: 0;
+        padding-left: 3px;
+    }
+    .linces{
+        font-size: 1rem;
+    }
+    .dental__videos--icon{
+        line-height: 7;
+    }
+    .header__nav{
+        background-color: white;
+        margin: 0;
+    }
+    .header__nav_hospital{
+        justify-content: flex-end;
+    }
+    .herder__nav__calendar{
+        margin-right: 4px;
+    }
+    .navbar__hide--item{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+}
